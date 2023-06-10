@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Nucot">
+ <test name="SalesForce">
+	 <parameter name="uname" value="chandan"></parameter>
+	 <parameter name="pwd" value="chandan@123"></parameter>
+	 <parameter name="browser" value="chrome"></parameter>
+	 <parameter name="url" value="https://login.salesforce.com/?locale=in"></parameter>
+	 <classes>
+		 <class name="framewok1.Salesforce"/>
+	 </classes>
+	 </test>
+	 <test name="Swaglabs">
+	 <parameter name="uname" value="standard_user"></parameter>
+	 <parameter name="pwd" value="secret_sauce"></parameter>
+	 <parameter name="browser" value="firefox"></parameter>
+	 <parameter name="url" value="https://www.saucedemo.com/"></parameter>
+	 <classes>
+		 <class name="framewok1.Swaglabs"></class>
+	 </classes>
+	 </test>
+	 
+</suite> <!-- Suite -->
